@@ -1,0 +1,208 @@
+body {
+    overflow-y: auto;
+}
+h6{
+    color:#044655;
+    letter-spacing: 3px;
+    /* font-size: 17px;; */
+
+
+
+}
+.textoprincipal{
+   
+    /* position: relative;
+    left: -350px; */
+    top:150px;
+    
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size:15px; */
+    line-height:30px;
+    color:#475067;
+
+}
+/* .fs-6{
+    min-width: 250px;
+} */
+.button {
+    border: none;
+    color: #fff;
+    margin-left: 410px;
+    background-image: linear-gradient(30deg, #3DADC5,#3db9d4 );
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    
+   }
+   
+.button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+.navbar .dropdown-menu {
+	border-radius: 20px;
+	border-color: #3dadc5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .navbar-nav .dropdown-menu a {
+	padding: 8px 20px;
+	line-height: normal;
+}
+.navbar .navbar-form {
+	border: none;
+}
+.navbar .navbar-form-wrapper {
+	padding: 0 15px;
+}
+.navbar .login-form label {
+	color: #888;
+	font-weight: normal;
+}
+.navbar .dropdown-menu.login-form {
+	width: 280px;
+	padding: 20px;
+	left: 950px;
+	right: 0;
+	font-size: 14px;
+}
+.navbar .navbar-nav .dropdown-menu.login-form a {
+	padding: 0 !important;
+	color: #5c6ac4;
+	font-weight: normal;
+}
+.navbar .navbar-nav .dropdown-menu.login-form a:hover{
+	text-decoration: underline;
+}
+.navbar .dropdown-menu.login-form .checkbox-inline {
+	margin-top: 10px;
+
+}
+.colorPrincipal {
+    background-color: #98d3c7;
+}
+
+.navbar-expand{
+    padding-top:1000px;
+}
+
+.container_buscar-agregar {
+    display: flex;
+    mix-blend-mode: hard-light;
+    justify-content: space-between;
+}
+/* .agregarPaciente {
+    
+} */
+footer {
+    background: #010f25;
+    height: auto;
+    width: 100vw;
+    font-family: var(--bs-font-sans-serif);
+    padding-top: 40px;
+    color: #fff;
+}
+.logo{
+    
+    width: 100px;
+    font-size: 25px;;
+  }
+
+button {
+    border: thick;
+}
+
+.color {
+    background-color: yellow;
+}
+
+
+
+
+#add__container {
+    display: flex;
+    justify-content: center;
+}
+#add {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+.add__item {
+    overflow-y: scroll;
+    height: 60vh;
+    margin: 1.5rem 0 1.7rem;
+}
+.add__title {
+    text-align: center;
+    width: 100%;
+    display: table;
+    text-decoration: none;
+}
+/* .navbar__links:hover {
+    color: #8656bd;
+} */
+.add__div {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -2000px; 
+    opacity: 1;
+    transition: all 0.05s ease;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+}
+.add__div.active {
+    /* background: #131313; */
+    /* top: 100px; */top: 10%;
+    opacity: 1;
+    transition: .15s ease-in-out;
+    z-index: 99;
+    width: 600px;
+    margin: 0 -20px;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    /* height: 300px; */
+    /* font-size: 1.6rem; */
+    /* display: flex;
+    flex-direction: column; */
+}
+/* #submit{
+    width: 85px;
+    margin: auto;
+    margin-right: 0;
+    float: right; 
+} */
+@media screen and (max-width:600px) and (min-width: 100px) {
+.button {
+    margin-left: 0!important;
+    padding: 0.5rem!important;
+} 
+
+.navbar .dropdown-menu.login-form {
+position: absolute!important;
+left: 14vw!important;
+}
+
+/* .ml-auto {
+    margin-left: 0!important;
+} */
+}
